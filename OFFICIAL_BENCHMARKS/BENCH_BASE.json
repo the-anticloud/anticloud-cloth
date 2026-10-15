@@ -1,0 +1,176 @@
+{
+  "schema": "anticloud.tier-bench/1",
+  "project": "CLOTH",
+  "source": {
+    "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\CLOTHING_MANUFACTURING\\CLOTH\\UPSTREAM_CLONE",
+    "git": {
+      "head": "fe7f20180f5f06d4e3256fb20bcc480aec83de2c",
+      "url": "https://github.com/valorcurse/cloth-simulation",
+      "branch": "HEAD",
+      "committed_at": "2013-08-20T21:32:58+02:00"
+    }
+  },
+  "metrics": {
+    "files_total": 7,
+    "source_files_scanned": 4,
+    "lines_of_code": 271,
+    "languages": {
+      ".py": 4,
+      "(none)": 2,
+      ".md": 1
+    }
+  },
+  "licence": {
+    "spdx": "UNKNOWN",
+    "class": "C",
+    "source_file": "LICENSE",
+    "redistribution_allowed": false
+  },
+  "dependencies": {
+    "count": 0,
+    "unique": 0,
+    "by_ecosystem": {},
+    "list": []
+  },
+  "owasp_top10": {
+    "total_findings": 0,
+    "files_with_findings": 0,
+    "severity": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "categories": {
+      "A01-BrokenAccessControl": {
+        "count": 0,
+        "findings": []
+      },
+      "A02-CryptographicFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A03-Injection": {
+        "count": 0,
+        "findings": []
+      },
+      "A04-InsecureDesign": {
+        "count": 0,
+        "findings": []
+      },
+      "A05-SecurityMisconfiguration": {
+        "count": 0,
+        "findings": []
+      },
+      "A06-VulnerableComponents": {
+        "count": 0,
+        "findings": []
+      },
+      "A07-AuthFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A08-SoftwareDataIntegrity": {
+        "count": 0,
+        "findings": []
+      },
+      "A09-LoggingMonitoringFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A10-SSRF": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "owasp_llm_top10": {
+    "total_findings": 0,
+    "files_with_findings": 0,
+    "severity": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "categories": {
+      "LLM01-PromptInjection": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM02-SensitiveInfoDisclosure": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM03-SupplyChain": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM04-DataPoisoning": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM05-ImproperOutputHandling": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM06-ExcessiveAgency": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM07-SystemPromptLeak": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM08-VectorEmbeddingWeaknesses": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM09-Misinformation": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM10-UnboundedConsumption": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "sbom": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "serialNumber": "urn:uuid:bc2a9cd6-a9c2-5406-80ed-f2d571fc9efd",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-10-05T15:33:22Z",
+      "component": {
+        "type": "application",
+        "name": "CLOTH",
+        "version": "fe7f20180f5f",
+        "bom-ref": "pkg:generic/anticloud/CLOTH@fe7f20180f5f",
+        "purl": "pkg:generic/anticloud/CLOTH@fe7f20180f5f",
+        "licenses": [
+          {
+            "license": {
+              "id": "UNKNOWN"
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "anticloud:source-commit",
+          "value": "fe7f20180f5f06d4e3256fb20bcc480aec83de2c"
+        },
+        {
+          "name": "anticloud:source-url",
+          "value": "https://github.com/valorcurse/cloth-simulation"
+        },
+        {
+          "name": "anticloud:tier",
+          "value": "tier-agent"
+        }
+      ]
+    },
+    "components": []
+  },
+  "elapsed_seconds": 0.88
+}

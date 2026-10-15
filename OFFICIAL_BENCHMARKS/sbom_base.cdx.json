@@ -1,0 +1,38 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:bc2a9cd6-a9c2-5406-80ed-f2d571fc9efd",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T15:33:22Z",
+    "component": {
+      "type": "application",
+      "name": "CLOTH",
+      "version": "fe7f20180f5f",
+      "bom-ref": "pkg:generic/anticloud/CLOTH@fe7f20180f5f",
+      "purl": "pkg:generic/anticloud/CLOTH@fe7f20180f5f",
+      "licenses": [
+        {
+          "license": {
+            "id": "UNKNOWN"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "fe7f20180f5f06d4e3256fb20bcc480aec83de2c"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/valorcurse/cloth-simulation"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": []
+}
